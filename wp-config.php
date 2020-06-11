@@ -18,15 +18,16 @@
  * @package WordPress
  */
 
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'pick' );
 
 /** MySQL database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'pick' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'password' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -46,14 +47,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define('AUTH_KEY',         'qZ|,@]pckw{LFIw%jPi4;k@%MuU*4SJW1p>BC18{`2gY3c`{ffh}O~ Z+4]*$m>^');
+define('SECURE_AUTH_KEY',  '1|&E;fe  =gbGeGfY|aPalsu&R)vFZ`otZH:+NbtGG jDL_M-3Larf/uLaL~bwvG');
+define('LOGGED_IN_KEY',    'gYGzg(-l|cS|GCnku 6A^)Z?c-q6p.w=yVvm?owpDK@7 !!m=M:b:>{~cw2JdL[n');
+define('NONCE_KEY',        '=:=HlavM@i(~a6YyiiJ-g?q$qhO?o9#h+C+i.3fe#H<JS=] JZc$+-h`9l1?$;%|');
+define('AUTH_SALT',        '$OHUnHz:o~02J| @~*r9HzW1G34x_VG!BCTb3mAcp+yg!X>Tx~mU W%=+%x|22e!');
+define('SECURE_AUTH_SALT', 'rh:nU2xrWS=duq(.8%lxcUi4{KIjU4AF,,Ge!C[CH=;wm`(y,dq6joMbl-]`!~<6');
+define('LOGGED_IN_SALT',   'B<U4P~DS1BKN>2z,]pFjCT5*l_ACoE-:^s|)f+;EK.2Ud [Ul(!0?p(,ZoX+Ct* ');
+define('NONCE_SALT',       '%-n6}-7/hHTug]P~#n)u5S6)7[i$VQ~%IkX:Llt~FnY,FH)Td @Mp`fH<>=-}mX[');
 
 /**#@-*/
 
@@ -63,7 +64,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'pick_';
 
 /**
  * For developers: WordPress debugging mode.
